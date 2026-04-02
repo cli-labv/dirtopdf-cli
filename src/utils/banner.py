@@ -16,7 +16,7 @@ console = Console()
 
 def show_banner(subtitle: Optional[str] = None) -> None:
     """Muestra un banner animado de bienvenida."""
-    ascii_art = pyfiglet.figlet_format("Image2PDF", font=settings.BANNER_FONT)
+    ascii_art = pyfiglet.figlet_format("DirToPDF", font=settings.BANNER_FONT)
     banner_text = Text(ascii_art, style=f"bold {settings.BANNER_COLOR}")
 
     if subtitle:

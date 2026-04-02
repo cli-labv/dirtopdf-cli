@@ -1,4 +1,4 @@
-# 📸 Image to PDF CLI
+# 📁 DirToPDF CLI
 
 <div align="center">
 
@@ -36,7 +36,7 @@ Es extremadamente simple. Solo necesitas ejecutar:
 
 ```bash
 git clone <repository-url>
-cd img2pdf-cli
+cd dirtopdf-cli
 chmod +x start.sh
 ./start.sh
 ```
@@ -69,7 +69,7 @@ La aplicación te guiará paso a paso:
 #### Opción 1: Usar carpeta input/
 
 ```
-img2pdf-cli/
+dirtopdf-cli/
 ├── input/
 │   ├── Vacaciones2024/       # → output/Vacaciones2024.pdf
 │   │   ├── foto1.jpg
@@ -109,7 +109,7 @@ img2pdf-cli/
 El proyecto sigue **Clean Architecture** y principios **SOLID**:
 
 ```
-img2pdf-cli/
+dirtopdf-cli/
 ├── README.md              # Este archivo
 ├── start.sh               # Script de inicio automático
 ├── install.sh             # Script de instalación de dependencias

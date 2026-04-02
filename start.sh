@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Image to PDF CLI - Script de inicio automático
+# DirToPDF CLI - Script de inicio automático
 # Este script configura el entorno y ejecuta la aplicación
 
 set -e  # Salir si hay errores
@@ -27,7 +27,7 @@ print_banner() {
     echo ""
     print_color "$CYAN$BOLD" "╔════════════════════════════════════════════════════════════╗"
     print_color "$CYAN$BOLD" "║                                                            ║"
-    print_color "$CYAN$BOLD" "║           📸  IMAGE TO PDF CLI  📄                         ║"
+    print_color "$CYAN$BOLD" "║           📸  DIRTOPDF CLI  📄                         ║"
     print_color "$CYAN$BOLD" "║                                                            ║"
     print_color "$CYAN$BOLD" "║        Convierte Carpetas de Imágenes en PDFs              ║"
     print_color "$CYAN$BOLD" "║                                                            ║"
@@ -156,7 +156,7 @@ done
 # Separador visual
 echo ""
 print_color "$MAGENTA$BOLD" "════════════════════════════════════════════════════════════"
-print_color "$GREEN$BOLD" "🚀 ¡Todo listo! Iniciando Image to PDF CLI..."
+print_color "$GREEN$BOLD" "🚀 ¡Todo listo! Iniciando DirToPDF CLI..."
 print_color "$MAGENTA$BOLD" "════════════════════════════════════════════════════════════"
 echo ""
 

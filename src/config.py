@@ -44,7 +44,7 @@ class Settings(BaseSettings):
     PDF_TITLE_FROM_FOLDER: bool = True
     PDF_AUTHOR: str = ""
     PDF_SUBJECT: str = "Converted from images"
-    PDF_CREATOR: str = "Image to PDF CLI"
+    PDF_CREATOR: str = "DirToPDF CLI"
 
     # Límites
     MAX_FILE_SIZE_MB: int = 500
