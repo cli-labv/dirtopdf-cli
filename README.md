@@ -25,6 +25,17 @@
 
 ## 🚀 Inicio Rápido
 
+### ⚡ Optimización de Startup
+
+El proyecto utiliza **cacheo inteligente** para acelerar el tiempo de inicio:
+
+- **Primera ejecución**: ~30-60 segundos (instala dependencias)
+- **Siguientes ejecuciones**: < 2 segundos (usa caché) ⚡
+
+Ver [docs/OPTIMIZACIONES.md](docs/OPTIMIZACIONES.md) para más detalles.
+
+📚 **Documentación completa:** Ver [docs/INDEX.md](docs/INDEX.md) para índice de toda la documentación.
+
 ### Requisitos Previos
 
 - Python 3.9 o superior

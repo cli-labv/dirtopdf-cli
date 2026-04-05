@@ -119,3 +119,8 @@ celerybeat.pid
 # Backup files
 *.bak
 *.backup
+
+# Cache markers
+.installed
+.venv_ready
+.cache
